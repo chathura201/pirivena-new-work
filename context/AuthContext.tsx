@@ -24,7 +24,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   const login = (u: string, p: string): boolean => {
     // Mock authentication - In a real app, this would be an API call
-    if (u.trim() === 'admin' && p.trim() === 'password') {
+    if (u.trim() === 'mudduwa2026' && p.trim() === 'mudduwa2026') {
       const newUser = { username: 'admin', role: 'admin' as const };
       setUser(newUser);
       localStorage.setItem('pirivena_admin_user', JSON.stringify(newUser));

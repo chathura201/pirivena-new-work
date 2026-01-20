@@ -28,8 +28,8 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-bold text-gray-800 dark:text-white">දුරකථන</h4>
-                <p className="text-gray-600 dark:text-gray-400">045-222XXXX</p>
-                <p className="text-gray-600 dark:text-gray-400">077-XXXXXXX</p>
+                <p className="text-gray-600 dark:text-gray-400">045-2222361</p>
+                <p className="text-gray-600 dark:text-gray-400">071-7071651</p>
               </div>
             </div>
 

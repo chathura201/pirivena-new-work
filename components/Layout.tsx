@@ -35,7 +35,7 @@ export default function Layout() {
       <div className="bg-maroon-900 dark:bg-maroon-950 text-saffron-100 py-2 px-4 text-xs md:text-sm hidden md:block transition-colors duration-300 z-50 relative border-b border-maroon-800 dark:border-maroon-900">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex gap-4 animate-fade-in">
-            <span className="flex items-center gap-1 hover:text-white transition-colors duration-300"><Phone size={14} /> 045-222XXXX</span>
+            <span className="flex items-center gap-1 hover:text-white transition-colors duration-300"><Phone size={14} /> 045-2222361</span>
             <span className="flex items-center gap-1 hover:text-white transition-colors duration-300"><MapPin size={14} /> {t('address')}</span>
           </div>
           <div className="flex gap-4 items-center animate-fade-in">
@@ -256,7 +256,7 @@ export default function Layout() {
               </li>
               <li className="flex items-center gap-3 group">
                 <Phone size={18} className="text-saffron-500 shrink-0 group-hover:tada" />
-                <span className="group-hover:text-white transition-colors duration-300">045-222XXXX</span>
+                <span className="group-hover:text-white transition-colors duration-300">045-222361</span>
               </li>
             </ul>
           </div>
